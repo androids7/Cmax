@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<!--
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<HorizontalScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+	-->
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:background="#FFFFFF">
+
+				<EditText
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:gravity="top|left"
+					android:textSize="14sp"
+					android:textColor="#505050"
+					android:background="#FFFFFF"
+					android:padding="10dp"
+					android:id="@+id/id_cmax_source_edit"
+					android:text="作者：小蟀，QQ：1126390395，交流群：542966360"/>
+
+			</LinearLayout>
+	<!--
+		</HorizontalScrollView>
+
+	</ScrollView>
+	-->
+	
+</LinearLayout>
+
